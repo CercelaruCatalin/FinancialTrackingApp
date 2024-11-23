@@ -1,0 +1,42 @@
+.bgColor {
+  @apply bg-gradient-to-r from-gray-100 to-zinc-200;
+}
+
+.input_group{
+  @apply flex border rounded-xl;
+  position: relative;
+}
+
+.input_text{
+  @apply w-full py-4 px-6 border rounded-xl bg-slate-50;
+  @apply focus:outline-none border-none;
+}
+
+.button{
+  @apply w-full  rounded-md;
+  @apply py-3 text-gray-50 text-lg;
+}
+
+.button:hover{
+  @apply bg-green-600 border-black;
+  @apply text-gray-700 border;
+}
+
+.input_text{
+  color: #000000;
+}
+
+.input_text:focus{
+  color: #3b3b3b;
+}
+
+.input_text:not([type=email]) ~ span:hover *{
+  color: #63f199;
+  cursor: pointer;
+}
+
+  @media only screen and (max-width: 1028) {
+    .resolution {
+      display: none;
+    }
+  }

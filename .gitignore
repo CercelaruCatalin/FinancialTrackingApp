@@ -1,0 +1,5 @@
+# Ignore Next.js build and cache directories
+my-app/.next/
+
+# Ignore node_modules
+my-app/node_modules/
